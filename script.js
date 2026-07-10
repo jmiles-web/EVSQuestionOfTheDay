@@ -1,46 +1,40 @@
-async function loadDailyQuestion() {
-    try {
-        const response = await fetch("questions.json");
-        const questions = await response.json();
+fetch("data/questions.json")
+.then(response => response.json())
+.then(data => {
 
-        const today = new Date();
+    let today = new Date();
 
-        const localDate = new Date(
-            today.getTime() - today.getTimezoneOffset() * 60000
-        )
-        .toISOString()
-        .split("T")[0];
+    today.setHours(0,0,0,0);
 
-        document.getElementById(
-            "date"
-        ).innerText = `Date: ${localDate}`;
+    let selected = data[0];
 
-        const todayData = questions[localDate];
+    data.forEach(item => {
 
-        if (!todayData) {
-            document.getElementById("question").innerText =
-                "No question scheduled for today.";
+        let itemDate = new Date(item.date);
 
-            return;
+        if(itemDate <= today){
+            selected = item;
         }
 
-        document.getElementById("question").innerText =
-            todayData.question;
+    });
 
-        const answersDiv = document.getElementById("answers");
+    document.getElementById("question").innerText =
+        selected.question;
 
-        todayData.answers.forEach(answer => {
-            const div = document.createElement("div");
-            div.className = "answer";
-            div.innerText = answer;
-            answersDiv.appendChild(div);
-        });
+    let answersDiv =
+        document.getElementById("answers");
 
-    } catch (error) {
-        document.getElementById("question").innerText =
-            "Unable to load today's question.";
-        console.error(error);
-    }
-}
+    selected.answers.forEach(answer => {
 
-loadDailyQuestion();
+        let div =
+            document.createElement("div");
+
+        div.className = "answer";
+
+        div.innerText = answer;
+
+        answersDiv.appendChild(div);
+
+    });
+
+});
