@@ -1,9 +1,0 @@
-'2026-07-13': {
-  question: 'How do you Transport clean linen for Discharge?',
-  answers: [
-    'Soil Linen Bag',
-    'Clear Trash Bag',
-    'In Hand',
-    "Doesn't Matter"
-  ]
-}
