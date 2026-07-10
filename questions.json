@@ -1,0 +1,442 @@
+[
+  {
+    "Date": "2026-07-13",
+    "Question": "How do you Transport clean linen for Discharge?",
+    "Answer A": "Soil Linen Bag",
+    "Answer B": "Clear Trash Bag",
+    "Answer C": "In Hand",
+    "Answer D": "Doesn't Matter"
+  },
+  {
+    "Date": "2026-07-14",
+    "Question": "How many steps are in a Daily Clean?",
+    "Answer A": "7 Steps",
+    "Answer B": "10 Steps",
+    "Answer C": "4 Steps",
+    "Answer D": "5 Steps"
+  },
+  {
+    "Date": "2026-07-15",
+    "Question": "How many steps are in a Discharge clean?",
+    "Answer A": "5 Steps",
+    "Answer B": "8 Steps",
+    "Answer C": "7 Steps",
+    "Answer D": "9 Steps"
+  },
+  {
+    "Date": "2026-07-16",
+    "Question": "What is the expected time spent completing a Daily?",
+    "Answer A": "5-20 Minutes",
+    "Answer B": "3-5 Minutes",
+    "Answer C": "5-10 Minutes",
+    "Answer D": "5-7 Minutes"
+  },
+  {
+    "Date": "2026-07-17",
+    "Question": "What do P.A.S.S. stand for?",
+    "Answer A": "Pull, Aim, Squeeze, Sweep",
+    "Answer B": "Pull, Arm, Squeeze, Sweep",
+    "Answer C": "Pull, Aim, Squirt, Sweep",
+    "Answer D": "Pull. Aim, Squeeze, Swell"
+  },
+  {
+    "Date": "2026-07-20",
+    "Question": "What do R.A.C.E. stand for?",
+    "Answer A": "Rescue, Alarm,Contain,Empty",
+    "Answer B": "Rescue, Alarm, Contain, Extinguished",
+    "Answer C": "Replace, Alarm, Contain, Extinguished",
+    "Answer D": "Rescue, Aloud, Contain, Extinguished"
+  },
+  {
+    "Date": "2026-07-21",
+    "Question": "What is the dwell time for Oxycide?",
+    "Answer A": "3 Minutes",
+    "Answer B": "10 Minutes",
+    "Answer C": "8 Minutes",
+    "Answer D": "5 Minutes"
+  },
+  {
+    "Date": "2026-07-22",
+    "Question": "What does TAT mean?",
+    "Answer A": "Turn Alnost Then",
+    "Answer B": "Turn Around Time",
+    "Answer C": "Turn Ahead Time",
+    "Answer D": "Turn Around Tent"
+  },
+  {
+    "Date": "2026-07-23",
+    "Question": "What is the difference in a Discharge and Terminal Clean?",
+    "Answer A": "Walls And Tables",
+    "Answer B": "Ceiling And Cabinets",
+    "Answer C": "Ceiling And Walls",
+    "Answer D": "Windows And Walls"
+  },
+  {
+    "Date": "2026-07-24",
+    "Question": "How long should you run water?",
+    "Answer A": "5 Minutes",
+    "Answer B": "10 Minutes",
+    "Answer C": "8 Minutes",
+    "Answer D": "6 Minutes"
+  },
+  {
+    "Date": "2026-07-27",
+    "Question": "What bacteria grows in standing water?",
+    "Answer A": "Lemonanella",
+    "Answer B": "Bacteria",
+    "Answer C": "Mold",
+    "Answer D": "Legionella"
+  },
+  {
+    "Date": "2026-07-28",
+    "Question": "How long do wash your hands?",
+    "Answer A": "15-20 Seconds",
+    "Answer B": "10-15 Seconds",
+    "Answer C": "15-25 Seconds",
+    "Answer D": "5-10 Seconds"
+  },
+  {
+    "Date": "2026-07-29",
+    "Question": "What item goes on the top shelf?",
+    "Answer A": "Bags",
+    "Answer B": "Crème Cleanser",
+    "Answer C": "Bowl Mop Container",
+    "Answer D": "Tent Cards"
+  },
+  {
+    "Date": "2026-07-30",
+    "Question": "What item goes on the 1st shelf?",
+    "Answer A": "Tissue",
+    "Answer B": "Toliet Strips",
+    "Answer C": "Paper Towels",
+    "Answer D": "Soap"
+  },
+  {
+    "Date": "2026-07-31",
+    "Question": "What item goes on the 2nd shelf?",
+    "Answer A": "Sanitizer",
+    "Answer B": "Tent Cards",
+    "Answer C": "Trash Bags",
+    "Answer D": "Paper Towels"
+  },
+  {
+    "Date": "2026-08-03",
+    "Question": "What item goes on the 3rd shelf?",
+    "Answer A": "Sanitizer",
+    "Answer B": "Gloves",
+    "Answer C": "Trash Bags",
+    "Answer D": "Tissue"
+  },
+  {
+    "Date": "2026-08-04",
+    "Question": "What chemical(s) goes in the bowl mop container?",
+    "Answer A": "QC 40",
+    "Answer B": "QC 50",
+    "Answer C": "Oxycide",
+    "Answer D": "Bleach"
+  },
+  {
+    "Date": "2026-08-05",
+    "Question": "When should we use a toilet strip?",
+    "Answer A": "Daily Clean",
+    "Answer B": "Once A Day",
+    "Answer C": "Discharge Clean",
+    "Answer D": "Once A Week"
+  },
+  {
+    "Date": "2026-08-06",
+    "Question": "What is standard precaution?",
+    "Answer A": "Gown",
+    "Answer B": "Gloves",
+    "Answer C": "Goggles",
+    "Answer D": "Bonnet"
+  },
+  {
+    "Date": "2026-08-07",
+    "Question": "Gloving and mask procedure?",
+    "Answer A": "Sanitize, Mask, Glove",
+    "Answer B": "Glove, Sanitize, Mask",
+    "Answer C": "Sanitize. Glove, Mask",
+    "Answer D": "Mask, Sanitize, Glove"
+  },
+  {
+    "Date": "2026-08-10",
+    "Question": "Proper lifting technique is to lift with your ___ not with your_____.",
+    "Answer A": "Back, Knees",
+    "Answer B": "Knees, Back",
+    "Answer C": "Legs, Back",
+    "Answer D": "Back. Legs"
+  },
+  {
+    "Date": "2026-08-11",
+    "Question": "Name a bloodborne pathogen?",
+    "Answer A": "Blood",
+    "Answer B": "Flu",
+    "Answer C": "C. Diff",
+    "Answer D": "Heptatits B"
+  },
+  {
+    "Date": "2026-08-12",
+    "Question": "How often do we change our gloves during a daily?",
+    "Answer A": "Never",
+    "Answer B": "2 Times",
+    "Answer C": "1 Time",
+    "Answer D": "3 Times"
+  },
+  {
+    "Date": "2026-08-13",
+    "Question": "How many oz to saturate microfiber cloths?",
+    "Answer A": "64Oz",
+    "Answer B": "62Oz",
+    "Answer C": "32Oz",
+    "Answer D": "68Oz"
+  },
+  {
+    "Date": "2026-08-14",
+    "Question": "How many oz to saturate microfiber mops?",
+    "Answer A": "124Oz",
+    "Answer B": "130Oz",
+    "Answer C": "128Oz",
+    "Answer D": "129Oz"
+  },
+  {
+    "Date": "2026-08-17",
+    "Question": "what is the purpose of the red outlets?",
+    "Answer A": "Decoration",
+    "Answer B": "Continued Power During Outage",
+    "Answer C": "Use In Case Of A Fire",
+    "Answer D": "Save Space"
+  },
+  {
+    "Date": "2026-08-18",
+    "Question": "How often do you use Crème Cleanser?",
+    "Answer A": "Only When Needed",
+    "Answer B": "Once A Day Or When Needed",
+    "Answer C": "Once A Week Or When Needed",
+    "Answer D": "Once A Shift Or When Needed"
+  },
+  {
+    "Date": "2026-08-19",
+    "Question": "What is Donning and Doffing?",
+    "Answer A": "A Type Of PPE",
+    "Answer B": "How To Tie And Put On Gloves",
+    "Answer C": "Pulling Off And Putting On PPE",
+    "Answer D": "Putting On And Taking Off PPE"
+  },
+  {
+    "Date": "2026-08-20",
+    "Question": "Full red cans must be ____ during transport?",
+    "Answer A": "Locked",
+    "Answer B": "Empty",
+    "Answer C": "Labled",
+    "Answer D": "Requested"
+  },
+  {
+    "Date": "2026-08-21",
+    "Question": "How do we get rid of germs?",
+    "Answer A": "Sanitizing",
+    "Answer B": "Wipe With Dry Cloth",
+    "Answer C": "Nothing, There Are No Germs",
+    "Answer D": "Spray Lysol"
+  },
+  {
+    "Date": "2026-08-24",
+    "Question": "What is the first thing we clean in a discharge?",
+    "Answer A": "Bathroom",
+    "Answer B": "Door Knob",
+    "Answer C": "Bed",
+    "Answer D": "Over Bed Table"
+  },
+  {
+    "Date": "2026-08-25",
+    "Question": "What is a part of our uniform?",
+    "Answer A": "Badge",
+    "Answer B": "Under Shirt",
+    "Answer C": "Jacket",
+    "Answer D": "Silicone Watch Band"
+  },
+  {
+    "Date": "2026-08-26",
+    "Question": "What is a part of our uniform?",
+    "Answer A": "Silicone Ring Band",
+    "Answer B": "Slip Resistance",
+    "Answer C": "Sweat Shirt",
+    "Answer D": "Retractable Clip"
+  },
+  {
+    "Date": "2026-08-27",
+    "Question": "What area(s) do we use 40?",
+    "Answer A": "Soil Hold/Linen Room",
+    "Answer B": "Discharge/Clean Hold",
+    "Answer C": "Daily/Public Restrooms",
+    "Answer D": "Or/Procedure Areas"
+  },
+  {
+    "Date": "2026-08-28",
+    "Question": "What device do we use to put a room in progress?",
+    "Answer A": "Rover Phone",
+    "Answer B": "Rover App On Personal Phone",
+    "Answer C": "Ipad",
+    "Answer D": "Rover Ascom"
+  },
+  {
+    "Date": "2026-08-31",
+    "Question": "Which surface is considered a High-touch area?",
+    "Answer A": "Bed Rail",
+    "Answer B": "Ceiling Light",
+    "Answer C": "Precaution Sign",
+    "Answer D": "TV"
+  },
+  {
+    "Date": "2026-09-01",
+    "Question": "Which surface is considered a High-touch area?",
+    "Answer A": "Casters",
+    "Answer B": "Door Knob",
+    "Answer C": "Bible In Drawer",
+    "Answer D": "Floor"
+  },
+  {
+    "Date": "2026-09-02",
+    "Question": "Which surface is considered a High-touch area?",
+    "Answer A": "Vents",
+    "Answer B": "Sprinkler Head",
+    "Answer C": "Flush Value",
+    "Answer D": "Strobe Light"
+  },
+  {
+    "Date": "2026-09-03",
+    "Question": "Which surface is considered a High-touch area?",
+    "Answer A": "Vents",
+    "Answer B": "TV",
+    "Answer C": "Paper Taped On The Wall",
+    "Answer D": "Mirror"
+  },
+  {
+    "Date": "2026-09-04",
+    "Question": "Where can you find SDS?",
+    "Answer A": "Red And Yellow Binder",
+    "Answer B": "People Connect On An Advocate Computer",
+    "Answer C": "Google It On Your Phone",
+    "Answer D": "In Manager'S Office"
+  },
+  {
+    "Date": "2026-09-07",
+    "Question": "What is the name of the company of your leadership with EVS",
+    "Answer A": "Airmark",
+    "Answer B": "Armark",
+    "Answer C": "Aramark",
+    "Answer D": "Amtrac"
+  },
+  {
+    "Date": "2026-09-08",
+    "Question": "What is the goal for Total Turnaround Time?",
+    "Answer A": "65 Minutes",
+    "Answer B": "30 Mintues",
+    "Answer C": "45 Minutes",
+    "Answer D": "35 Minutes"
+  },
+  {
+    "Date": "2026-09-09",
+    "Question": "What is the goal for Beds Cleaned Under 60 Minutes?",
+    "Answer A": "60%",
+    "Answer B": "100%",
+    "Answer C": "50%",
+    "Answer D": "40%"
+  },
+  {
+    "Date": "2026-09-10",
+    "Question": "How often should patient room bathrooms be cleaned",
+    "Answer A": "Once A Week",
+    "Answer B": "Every Other Day",
+    "Answer C": "Once Daily",
+    "Answer D": "Visibly Dirty"
+  },
+  {
+    "Date": "2026-09-11",
+    "Question": "What PPE should be worn when cleaning isolation rooms",
+    "Answer A": "None",
+    "Answer B": "Gloves And Gowns",
+    "Answer C": "Booties Only",
+    "Answer D": "Just A Mask"
+  },
+  {
+    "Date": "2026-09-14",
+    "Question": "Red cans must be ____ during transport?",
+    "Answer A": "To Finish Quickly",
+    "Answer B": "To Avoid Surface Damage",
+    "Answer C": "To Ensure Germs Are Killed",
+    "Answer D": "To Save Cleaning Supplies"
+  },
+  {
+    "Date": "2026-09-15",
+    "Question": "What should be done with cleaning equipment after use in an Isolation room?",
+    "Answer A": "Nothing",
+    "Answer B": "Dispose Of It",
+    "Answer C": "Clean And Disinfect Before Reuse",
+    "Answer D": "Leave It In The Room"
+  },
+  {
+    "Date": "2026-09-16",
+    "Question": "What product do we mop with?",
+    "Answer A": "QC 20",
+    "Answer B": "QC 50",
+    "Answer C": "QC 73",
+    "Answer D": "QC 34"
+  },
+  {
+    "Date": "2026-09-17",
+    "Question": "Which of the following best describes \"Clean to Dirty\" cleaning?",
+    "Answer A": "Spot Clean Dirt Spots",
+    "Answer B": "Top To Bottom",
+    "Answer C": "Applying Pressure",
+    "Answer D": "Using PDI Wipes"
+  },
+  {
+    "Date": "2026-09-18",
+    "Question": "What sign should be placed when mopping?",
+    "Answer A": "Wet Floor Sign",
+    "Answer B": "No Entry Sign",
+    "Answer C": "Exit Sign",
+    "Answer D": "No Smoking Sign"
+  },
+  {
+    "Date": "2026-09-21",
+    "Question": "Why should we NOT mix chemicals?",
+    "Answer A": "It Saves Time",
+    "Answer B": "It Creates Dangerous Fumes",
+    "Answer C": "It Cleans Better",
+    "Answer D": "It Makes It Easier"
+  },
+  {
+    "Date": "2026-09-22",
+    "Question": "Why should cleaning carts not be left unattended in patient care areas?",
+    "Answer A": "To Save Space",
+    "Answer B": "To Save Time",
+    "Answer C": "So No Looks For You",
+    "Answer D": "For Safety And Security"
+  },
+  {
+    "Date": "2026-09-23",
+    "Question": "In a discharged room, all linen should be considered____?",
+    "Answer A": "Clean",
+    "Answer B": "Fresh",
+    "Answer C": "Contaminated",
+    "Answer D": "Needed"
+  },
+  {
+    "Date": "2026-09-24",
+    "Question": "When mopping, you should mop the futherest point from the _____?",
+    "Answer A": "Door",
+    "Answer B": "Bed",
+    "Answer C": "Bathroom",
+    "Answer D": "Bedside Table"
+  },
+  {
+    "Date": "2026-09-25",
+    "Question": "In which ways can you impact patient safety?",
+    "Answer A": "Keeping A Clean Room",
+    "Answer B": "Helping Create Quite And Comfortable Environment",
+    "Answer C": "Being Friendly And Professional",
+    "Answer D": "All Of The Above"
+  }
+]
