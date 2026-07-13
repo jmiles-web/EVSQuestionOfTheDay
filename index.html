@@ -55,33 +55,52 @@
 
 <script>
 
-fetch('questions.csv')
-.then(response => response.text())
-.then(data => {
+fetch('questions.json')
+  .then(response => response.json())
+  .then(data => {
 
-    const today = new Date().toISOString().split('T')[0];
+    const today = new Date()
+      .toISOString()
+      .split('T')[0];
 
-    const rows = data.split('\n');
+    const todaysQuestion =
+      data.find(q => q.date === today);
 
-    for(let i = 1; i < rows.length; i++){
+    if (todaysQuestion) {
 
-        const cols = rows[i].split(',');
+      document.getElementById('question').innerText =
+        todaysQuestion.question;
 
-        if(cols[0] === today){
+      document.getElementById('a').innerText =
+        'A. ' + todaysQuestion.answerA;
 
-            document.getElementById('question').innerText = cols[1];
-            document.getElementById('a').innerText = 'A. ' + cols[2];
-            document.getElementById('b').innerText = 'B. ' + cols[3];
-            document.getElementById('c').innerText = 'C. ' + cols[4];
-            document.getElementById('d').innerText = 'D. ' + cols[5];
+      document.getElementById('b').innerText =
+        'B. ' + todaysQuestion.answerB;
 
-            return;
-        }
+      document.getElementById('c').innerText =
+        'C. ' + todaysQuestion.answerC;
+
+      document.getElementById('d').innerText =
+        'D. ' + todaysQuestion.answerD;
+
+    }
+    else {
+
+      document.getElementById('question').innerText =
+        'No question scheduled today.';
+
     }
 
+  })
+  .catch(error => {
+
     document.getElementById('question').innerText =
-      'No question scheduled today.';
-});
+      'Unable to load questions.';
+
+    console.error(error);
+
+  });
+
 </script>
 
 </body>
