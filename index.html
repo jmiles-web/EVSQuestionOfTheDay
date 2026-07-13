@@ -2,22 +2,7 @@
 <html>
 <head>
     <title>Question of the Day</title>
-        <p><span id="current-date"> </span></p>
-
-<script>
-
-// 2. Fetch the current date using the JavaScript Date object         
-    const today = new Date();                      
-
-// 3. Format the date into a readable string (e.g., "7/13/2026")         
-    const formattedDate = today.toLocaleDateString();                  
     
-// 4. Inject the formatted date into your HTML element         
-    document.getElementById("current-date").textContent = formattedDate;
-
-</script>
-
-
     <style>
         body{
             font-family: Arial, sans-serif;
@@ -53,7 +38,21 @@
 
 <body>
 
-<h1>Question of the Day</h1>
+<h1>Question of the Day
+<p><span id="current-date"> </span></p></h1>
+
+<script>
+
+// 2. Fetch the current date using the JavaScript Date object         
+    const today = new Date();                      
+
+// 3. Format the date into a readable string (e.g., "7/13/2026")         
+    const formattedDate = today.toLocaleDateString();                  
+    
+// 4. Inject the formatted date into your HTML element         
+    document.getElementById("current-date").textContent = formattedDate;
+
+</script>
 
 <h2 id="question">Loading...</h2>
 
