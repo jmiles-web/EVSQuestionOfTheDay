@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Question of the Day — <span id="todayDate"> </span></title>
+    <title>Question of the Day — <span id="current-date"> </span></title>
 
     <style>
         body{
@@ -52,6 +52,15 @@
 </div>
 
 <script>
+
+// 2. Fetch the current date using the JavaScript Date object         
+    const today = new Date();                      
+
+// 3. Format the date into a readable string (e.g., "7/13/2026")         
+    const formattedDate = today.toLocaleDateString();                  
+    
+// 4. Inject the formatted date into your HTML element         
+    document.getElementById("current-date").textContent = formattedDate;
     
 fetch('questions.json')
   .then(response => response.json())
