@@ -48,12 +48,12 @@
 <div class="answer" id="d"></div>
 
 <div class="form-link">
-    <a href="https://forms.office.com/r/zhy19AjQXB
-       Submit Your Answer
+    <a href="https://forms.office.com/r/zhy19AjQXB"
+       target="_blank"
+       rel="noopener noreferrer">
+        Submit Your Answer
     </a>
 </div>
-
-<script>
 
 fetch('questions.json')
   .then(response => response.json())
@@ -64,33 +64,31 @@ fetch('questions.json')
       .split('T')[0];
 
     const todaysQuestion =
-      data.find(q => q.date === today);
+      data.find(q => q["Date"] === today);
 
     if (todaysQuestion) {
 
       document.getElementById('question').innerText =
-        todaysQuestion.question;
+        todaysQuestion["Question"];
 
       document.getElementById('a').innerText =
-        'A. ' + todaysQuestion.answerA;
+        'A. ' + todaysQuestion["Answer A"];
 
       document.getElementById('b').innerText =
-        'B. ' + todaysQuestion.answerB;
+        'B. ' + todaysQuestion["Answer B"];
 
       document.getElementById('c').innerText =
-        'C. ' + todaysQuestion.answerC;
+        'C. ' + todaysQuestion["Answer C"];
 
       document.getElementById('d').innerText =
-        'D. ' + todaysQuestion.answerD;
+        'D. ' + todaysQuestion["Answer D"];
 
-    }
-    else {
+    } else {
 
       document.getElementById('question').innerText =
         'No question scheduled today.';
 
     }
-
   })
   .catch(error => {
 
@@ -100,8 +98,6 @@ fetch('questions.json')
     console.error(error);
 
   });
-
-</script>
 
 </body>
 </html>
