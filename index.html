@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Question of the Day — <span id="current-date"> </span></title>
+    <title>Question of the Day</title>
+        <p><span id="current-date"> </span></p>
+
+<script>
+
+// 2. Fetch the current date using the JavaScript Date object         
+    const today = new Date();                      
+
+// 3. Format the date into a readable string (e.g., "7/13/2026")         
+    const formattedDate = today.toLocaleDateString();                  
+    
+// 4. Inject the formatted date into your HTML element         
+    document.getElementById("current-date").textContent = formattedDate;
+
+</script>
+
 
     <style>
         body{
@@ -50,19 +65,6 @@
 <div class="form-link">
         <iframe width="840px" height="1200px" src="https://forms.office.com/r/zhy19AjQXB?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 </div>
-
-<script>
-
-// 2. Fetch the current date using the JavaScript Date object         
-    const today = new Date();                      
-
-// 3. Format the date into a readable string (e.g., "7/13/2026")         
-    const formattedDate = today.toLocaleDateString();                  
-    
-// 4. Inject the formatted date into your HTML element         
-    document.getElementById("current-date").textContent = formattedDate;
-
-</script>
 
 <script>
     
